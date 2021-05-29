@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AskaanBi Banque</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gris">
+
+    <div class="app">
+        <div class="top-app bg-bleu">
+            <div class="app-name">
+                <h1 class="blanc">Askann Bi</h1>
+            </div>
+            <div class="user-name">
+            </div>
+            <div class="app-user">
+                <div class="img-user" id="drop-click">
+                    <img src="img/user.png" alt="AskaanBiBanque">
+                </div>
+                <div class="user-down remove-drop" id="drop-block">
+                    <div class="down-item mt-25 mb-25">
+                        <a href="" class="noir">Mes informations</a>
+                    </div>
+                    <hr>
+                    <div class="down-item mt-25 mb-25">
+                        <a href="index.php?action=disconnect" class="noir">Se deconnecter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="left-app bg-bleu-fonce">
+            <ul>
+                <li class="nav-item">
+                    <a href="dashboard.html">Tableau de bord</a>
+                </li>
+                <li class="nav-item">
+                    <a href="administrateur.html">Administrateur</a>
+                </li>
+                <li class="nav-item">
+                    <a href="agence.html">Agence</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="agent.html">Agent</a>
+                </li>
+                <li class="nav-item">
+                    <a href="client.html">Client</a>
+                </li>
+                <li class="nav-item">
+                    <a href="">Parametre</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-app">
+            <div class="container">
+                <h2 class="mb-50"><a href="" class="noir">Agents</a></h2>
+                <div class="data-users">
+                    <div class="mb-50">
+                        <a href="" class="btn bg-bleu-fonce blanc">Ajouter</a>
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th style="width: 5%;">#</th>
+                                <th style="width: 20%;">Nom</th>
+                                <th style="width: 20%;">Prenom</th>
+                                <th style="width: 20%;">Email</th>
+                                <th style="width: 20%;">Status</th>
+                                <th style="width: 15%;">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Assane</td>
+                                <td>KA</td>
+                                <td>assaneka@gmail.com</td>
+                                <td><span class="actif">Actif</span></td>
+                                <td>
+                                    <div class="table-action">
+                                        <a href="" class="bleu-fonce mb-10">Voire</a>
+                                        <a href="" class="orange mb-10">Editer</a>
+                                        <a href="" class="rouge mb-10">Supprimer</a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Dibor</td>
+                                <td>NDIAYE</td>
+                                <td>diborndiaye@gmail.com</td>
+                                <td><span class="non-actif">Actif</span></td>
+                                <td>
+                                    <div class="table-action">
+                                        <a href="" class="bleu-fonce mb-10">Voire</a>
+                                        <a href="" class="orange mb-10">Editer</a>
+                                        <a href="" class="rouge mb-10">Supprimer</a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Rafihou</td>
+                                <td>DIALLO</td>
+                                <td>rafihoudiallo@gmail.com</td>
+                                <td><span class="actif">Actif</span></td>
+                                <td>
+                                    <div class="table-action">
+                                        <a href="" class="bleu-fonce mb-10">Voire</a>
+                                        <a href="" class="orange mb-10">Editer</a>
+                                        <a href="" class="rouge mb-10">Supprimer</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
